@@ -236,17 +236,30 @@
 
 //==========OR=============\\
 
+
 //Use Case
 
-// let age = 18;
-// let hasdrivinglicense = true;
+/* let age = 18;
+let hasdrivinglicense = true;
 
-// if (age >=18 && hasdrivinglicense) {
-//     console.log("you can drive.");
-// } 
-// else {
-//     console.log("you cannot drive");
-// }
+if (age >=18 && hasdrivinglicense== true) {
+    console.log("you can drive.");
+} 
+else {
+    console.log("you cannot drive");
+} */
+            // Another Example
+
+
+/* let classTime = prompt("Enter Class Time");
+let studentEnter = prompt("When You Enter");
+
+if(classTime>=9 && studentEnter==9){
+    console.log("You can Enter");
+}
+else{
+    console.log("Get Out");
+} */
 
 //2. Logical OR (||)
 // The logical OR operator returns true if at least one of the operands is true; otherwise, it returns false.
@@ -289,3 +302,6 @@ if (!isLoggedIn) {
 Outputs: "Please log in." */
 
                 //============\\
+
+
+                
