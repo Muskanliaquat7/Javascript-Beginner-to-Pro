@@ -234,6 +234,7 @@
 // console.log(a && b); // Outputs: false
 // console.log(a && true); // Outputs: true
 
+
 //==========OR=============\\
 
 
@@ -303,5 +304,43 @@ Outputs: "Please log in." */
 
                 //============\\
 
+   
+    //=====FUNCTIONS IN JAVASCRIPT=======\\
+    
+/*     function java (){
+        alert("we are learning javascript");
+    }
 
-                
+    java()
+ */
+    //Return 
+    
+/*     function sub(a,b) {
+        console.log("muskan");
+        return a-b;
+       
+    }
+
+   let c = sub (8,9);
+
+   console.log(c);
+ */
+
+//    Default parameters
+
+/*    function sub(a=9,b=5) {
+    console.log(a-b);
+}
+
+sub(15); */
+
+// recursive function
+
+/* function Readdata (data,times){
+    document.write(data);
+    if(times>0){
+        Readdata(data,times)
+    }
+}
+
+Readdata("muskan"); */
