@@ -344,3 +344,56 @@ sub(15); */
 }
 
 Readdata("muskan"); */
+
+// FACTORIAL function 
+
+/* function factorial (num){
+    if (num>1){
+        return num * factorial (num-1);
+    }
+
+   
+        return 1;
+    
+}
+
+factorial() */
+
+/* global Scope = Whole file
+local scope = inside function */
+
+/* 
+ */
+
+
+//Global scope variable
+
+/* let globalVariable = "I'm in the global scope";
+
+function myFunction(){
+    let localVariable = " I'm in the local scope";
+
+    //Local scope variable
+    console.log(globalVariable);
+    console.log(localVariable);
+    
+}
+
+console.log(globalVariable);
+console.log(localVariable);
+ */
+
+
+
+
+/* let myArray = [];
+
+myArray.push("table");
+myArray.push("Chair");
+myArray.push("Bed");
+
+console.log(myArray);
+
+let removed = myArray.pop();
+
+console.log(myArray); */
