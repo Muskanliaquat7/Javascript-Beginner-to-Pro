@@ -398,48 +398,48 @@ let removed = myArray.pop();
 
 console.log(myArray); */
 
-// DOM
-
-/* var heading = document.getElementById('myHeading');
+/* ============================ *\
+/* ============= DOM ============= */
+/* 
+var heading = document.getElementById('myHeading');
 var paragraph = document.getElementById('myParagraph');
 var button = document.getElementById('styleButton');
 
 function applyStyles() {
-    heading.style.color ='blue';
-    heading.style.fontWeight ='bold';
-    heading.style.fontFamily ='Arial, sans-serif';
-    heading.style.textAlign ='center';
+    heading.style.color = 'blue';
+    heading.style.fontWeight = 'bold';
+    heading.style.fontFamily = 'Arial, sans-serif';
+    heading.style.textAlign = 'center';
 
     paragraph.style.color = 'green';
     paragraph.style.fontSize = '18px';
     paragraph.style.margin = '20px';
 
-    button.textContent = 'Styles Applied'
-    
+    button.textContent = 'Styles Applied';
 }
 
-button.addEventListener('click', applyStyles); */
+button.addEventListener('click', applyStyles);
+ */
+/* ============= CLOCK ANIMATION SETINTERVAL ============= */
 
-/* ============= CLOCK ANIMATION SETINTERVAL ============= *\
-
-/* // Create a function to update the clock
-function updateClock() {
+// Create a function to update the clock
+/* function updateClock() {
     const clockElement = document.getElementById('clock');
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, '0');
     const minutes = String(now.getMinutes()).padStart(2, '0');
     const seconds = String(now.getSeconds()).padStart(2, '0');
     clockElement.textContent = `${hours}:${minutes}:${seconds}`;
-}
+} */
 
 // This function styles the clock to look nice
-function styleClock() {
+/* function styleClock() {
     const clockElement = document.getElementById('clock');
     clockElement.style.fontSize = '3rem';
     clockElement.style.fontFamily = 'Arial, sans-serif';
     clockElement.style.textAlign = 'center';
     clockElement.style.justifyContent = 'center';
-       clockElement.style.marginTop = '20%';
+    clockElement.style.marginTop = '20%';
     clockElement.style.padding = '20px';
     clockElement.style.backgroundColor = '#333';
     clockElement.style.color = '#fff';
@@ -447,30 +447,28 @@ function styleClock() {
     clockElement.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
     clockElement.style.display = 'inline-block';
 }
-
+ */
 // Call the styleClock function to style the clock
-styleClock();
+// styleClock();
 
 // Set an interval to update the clock every second
-setInterval(updateClock, 1000);
-updateClock(); // Initial call to display clock immediately on page load */
+/* setInterval(updateClock, 1000);
+updateClock(); */ // Initial call to display clock immediately on page load
 
-/* ============= SETINTERVAL-ANIMATION-2 ============= *\
-
-// Function to style the box
+/* ============= SETINTERVAL-ANIMATION-2 ============= */
 
 // Function to style the box
-function styleBox() {
+/* function styleBox() {
     const box = document.getElementById('box');
     box.style.width = '100px';
     box.style.height = '100px';
     box.style.backgroundColor = '#3498db';
     box.style.margin = '50px auto';
     box.style.transition = 'width 0.5s';
-}
+} */
 
 // Function to animate the width of the box
-let growing = true;
+/* let growing = true;
 
 function animateWidth() {
     const box = document.getElementById('box');
@@ -490,9 +488,9 @@ function animateWidth() {
 
     box.style.width = currentWidth + 'px';
 }
-
+ */
 // Apply styles when the page loads
-window.onload = function() {
+/* window.onload = function() {
     console.log('Page loaded');
     const box = document.getElementById('box');
     if (box) {
@@ -502,4 +500,4 @@ window.onload = function() {
     } else {
         console.log('Box not found');
     }
-}
+} */
