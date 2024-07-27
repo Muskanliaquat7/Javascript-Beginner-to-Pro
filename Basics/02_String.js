@@ -59,13 +59,13 @@ console.log(statement); */
 /* Finding a Substring */
 // To check if a string contains another string, use includes():
 
-let motivation = "Don't wait for the perfect moment, take the moment and make it perfect."
+/* let motivation = "Don't wait for the perfect moment, take the moment and make it perfect."
 
 let hasMoment = motivation.includes("moment");
 let hasPerfect = motivation.includes("are");
 
 console.log(hasMoment); //true
-console.log(hasPerfect); //false
+console.log(hasPerfect); //false */
 
 // To find the position of a substring within a string, use indexOf() or lastIndexOf():
 
