@@ -467,3 +467,61 @@ function animateWidth() {
         console.log('Box not found');
     }
 } */
+
+/* ============= SETINTIMEDOUT ============= */
+
+/* function sayHi() {
+    console.log("hi World!");
+}
+
+setTimeout(sayHi, 3000);
+
+/* ============= DIFFERENCE BTw SETINTIMEDOUT/ SITEINTERVAL ============= */
+
+/* function sayHello(){
+    console.log("Hello, World!");
+}
+
+setInterval(sayHello, 3000);  */
+
+//SETTIMEOUT
+
+/* function sayHi() {
+    console.log("hi World!");
+}
+
+setTimeout(sayHi, 3000); */
+
+/* DATE OBJECT */
+
+/* let a = new Date();
+console.log(a.getMonth());
+ */
+
+// let now = new Date();
+// console.log(now);
+
+// let specificDate = new Date('2024-07-29');
+// console.log(specificDate);
+
+// let currentYear = now.getFullYear();
+// console.log(currentYear);
+
+// let currentMonth = now.getMonth();
+// console.log(currentMonth);
+
+// let currentDay = now.getDate();
+// console.log(currentDay);
+
+// let currentDayOfWeek = now.getDay();
+// console.log(currentDayOfWeek);
+
+// let currentHour = now.getHours();
+// console.log(currentHour);
+
+// let currentMinutes = now.getMinutes();
+// console.log(currentMinutes);
+
+// let currentSeconds = now.getSeconds();
+// console.log(currentSeconds);
+
