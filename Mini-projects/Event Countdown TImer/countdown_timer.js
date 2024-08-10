@@ -1,3 +1,4 @@
+
 // Set the date of the future event
 const eventDate = new Date("2024-08-14")
 
@@ -17,8 +18,11 @@ function updateCountdown(){
       const seconds = Math.floor((timeDifference % ( 1000 * 60)) / (1000));
 
        // Display the result
-       document.getElementById('countdown').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-
+       document.getElementById('countdown').innerHTML = `
+       <span>${days}d</span>
+       <span>${hours}h</span>
+       <span>${minutes}m</span>
+       <span>${seconds}s</span>`;
        // Update the countdown every second
 
        setTimeout(updateCountdown, 1000);
@@ -28,4 +32,9 @@ function updateCountdown(){
     // Start the countdown timer
 
     updateCountdown();
+
+
+
+
+    
 
