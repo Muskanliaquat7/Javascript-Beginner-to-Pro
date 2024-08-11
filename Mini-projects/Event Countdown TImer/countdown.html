@@ -5,80 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Countdown Timer</title>
 </head>
-
 <style>
-     body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(120deg, #00a651, #ffffff);
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-           
-        }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('bg.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-        .container {
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.3);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
-        }
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    width: 90%;
+    max-width: 600px;
+}
 
-        h1 {
-            font-size: 2.5em;
-            color: #004d40;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
+h1 {
+    font-size: 2.5em;
+    color: #004d40;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-        .timer {
-            font-size: 3em;
-            font-weight: bold;
-            color: #004d40;
-            margin-top: 20px;
-        }
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+    color: #004d40;
+    margin-top: 20px;
+}
 
-        .timer span {
-            display: inline-block;
-            padding: 0 10px;
-            background: linear-gradient(120deg, #00a651, #006400);
-            border-radius: 5px;
-            color: #fff;
-            margin: 0 5px;
-        }
+.timer span {
+    display: inline-block;
+    padding: 0 10px;
+    background: linear-gradient(120deg, #00a651, #006400);
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 5px;
+}
 
-        .image-container {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-           
-            width: 40%; /* Cover half of the page's width */
-            height: 400px; /* Adjust height automatically */
-            max-width: 50%; /* Ensure it doesn't exceed half of the page */
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            z-index: 1; /* Ensures image is below the timer */
-        }
+.image-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%; /* Cover half of the page's width */
+    height: 400px; /* Adjust height automatically */
+    max-width: 50%; /* Ensure it doesn't exceed half of the page */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 0; /* Ensure image is below the timer */
+}
 
-        .image-container img {
-            width: 100%;
-            height: auto;
-            border-radius: 15px;
-        }
-        
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
 
+/* Image in the left-top corner */
+.image-left {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 20%;
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+    transform: rotate(-20deg); /* Rotate slightly upwards */
+    z-index: 0; /* Send the image behind */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .timer {
+        font-size: 2.5em;
+    }
+
+    .image-container {
+        width: 60%; /* Increase the width for smaller screens */
+        height: 300px; /* Reduce the height for smaller screens */
+        max-width: 70%;
+    }
+
+    .image-left {
+        width: 30%;
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .timer {
+        font-size: 2em;
+    }
+
+    .image-container {
+        width: 80%; /* Further increase the width for very small screens */
+        height: 200px; /* Further reduce the height */
+    }
+
+    .image-left {
+        width: 40%;
+        max-width: 80px;
+    }
+}
 </style>
 
 <body>
    
     <div class="container">
-        <h1>Event Countdown Timer</h1>
+        <h1>14th August Countdown Timer</h1>
         <div class="timer" id="countdown">Loading...</div>
     </div>
 
@@ -87,7 +146,7 @@
     </div>
     
     </div>
-
+ <div class="image-left"><img src="flag.png" alt=""></div>
   
 
 
