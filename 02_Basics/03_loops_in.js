@@ -56,10 +56,21 @@
 // PRACTICE QUESTIONS
 // Q1. print all even numbers between 0 to 100
 
-for (i= 1; i<=100; i++){ if (i %2 ==0) {
+/* for (i= 1; i<=100; i++){ if (i %2 ==0) {
     
     console.log(  i);
     
 } 
     
-}
+} */
+
+// Practice Qs2
+
+// let gameNum = 25;
+
+//  let userNum = prompt("guess the number");
+
+// while ( gameNum != userNum) {
+//  userNum =   prompt("you enter wrong number guess again");
+// }
+// console.log("you guess right");
