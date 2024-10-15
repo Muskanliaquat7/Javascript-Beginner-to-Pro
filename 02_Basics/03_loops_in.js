@@ -27,3 +27,39 @@
 //     i++
 //  } while (i>=10);
 
+// 5.for-of loop
+// to iterate on some special data types like string and arrays
+
+// let str = "hello";
+
+// for (let  i  of str) {
+//     console.log(i);   
+// }
+
+// 6. for-in loop
+// to iterate on object key 
+
+//first make an object 
+/* let student = {
+    name: "cat",
+    age: 2,
+    isCute: true,
+} */
+
+//then access the object key by iterator (i) iterator can be of any names.
+
+/* for (const i in student) {
+     console.log(i, student[i]);
+}
+ */
+
+// PRACTICE QUESTIONS
+// Q1. print all even numbers between 0 to 100
+
+for (i= 1; i<=100; i++){ if (i %2 ==0) {
+    
+    console.log(  i);
+    
+} 
+    
+}
