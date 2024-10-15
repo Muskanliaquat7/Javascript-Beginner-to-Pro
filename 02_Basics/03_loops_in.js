@@ -74,3 +74,12 @@
 //  userNum =   prompt("you enter wrong number guess again");
 // }
 // console.log("you guess right");
+
+
+let mess = "my name is \nhenry"
+ console.log(mess);
+ 
+let mess2 = `my name is 
+henry`
+ 
+console.log(mess2);
