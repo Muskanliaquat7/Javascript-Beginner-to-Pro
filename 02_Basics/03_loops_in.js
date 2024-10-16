@@ -76,10 +76,18 @@
 // console.log("you guess right");
 
 
-let mess = "my name is \nhenry"
+/* let mess = "my name is \nhenry"
  console.log(mess);
  
 let mess2 = `my name is 
 henry`
  
-console.log(mess2);
+console.log(mess2); */
+
+// PRACTICE QUESTION 3
+
+/* let userinp = prompt("enter your fullname");
+let length = userinp.length;
+ console.log("@".concat(userinp.concat(length)));
+
+ */
