@@ -94,7 +94,44 @@ let length = userinp.length;
 
 //  Task 1: 1 se 10 Tak Numbers Print Karna
 
-for (let index = 0; index <= 10; index++) {
+/* for (let index = 0; index <= 10; index++) {
 console.log(index);
     
+} */
+
+// Task 2: Even Numbers Print Karna (1 to 20)
+
+/* for (let index = 0; index <= 20; index++) {
+if (index % 2 ==0) {
+    console.log(index);
 }
+    
+} */
+
+// Task 3: Numbers ko Reverse Order Mein Print Karna (10 to 1)
+
+/* for (let index = 10; index  >= 0; index--) {
+    console.log(index);
+    
+} */
+
+// Task 4: Array ke Elements ko Print Karna
+
+/* let fruits = ['Apple', 'Banana', 'Mango', 'Orange', 'Grapes'];
+
+for (let index = 0; index < fruits.length; index++) {
+    console.log( fruits[index]);
+    
+  
+} */
+
+    // Task 5: Sum of Numbers from 1 to 100
+
+    let sum = 0;
+
+    for (let index = 0; index < 100; index++) {
+       sum = sum + index;
+         
+    }
+    console.log(`The sum is: ${sum}`);
+    
