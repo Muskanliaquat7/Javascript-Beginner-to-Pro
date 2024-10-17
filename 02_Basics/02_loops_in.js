@@ -91,3 +91,10 @@ let length = userinp.length;
  console.log("@".concat(userinp.concat(length)));
 
  */
+
+//  Task 1: 1 se 10 Tak Numbers Print Karna
+
+for (let index = 0; index <= 10; index++) {
+console.log(index);
+    
+}
