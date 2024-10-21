@@ -155,3 +155,33 @@ price[i] -= offer; //or price[i] = price[i] + offer;
 console.log(price);
  */
 
+
+
+// Qs3. Create an array to store companies
+
+// i) Remove the first company from an array 
+
+/* let comp = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+let remove = comp.shift();  //shift ethod delete element from start
+
+console.log(remove); //['Microsoft', 'Uber', 'Google', 'IBM', 'Netflix']
+ */
+
+// ii) Remove Ubar and add Ola in its place
+/* 
+let comp = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+comp.splice(2,1,"Ola")
+
+console.log(comp);
+ */
+
+
+// iii) add amazon at the end
+/* 
+let comp = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+comp.push("amazon"); //push method adds element to the last in array
+console.log(comp);
+ */
