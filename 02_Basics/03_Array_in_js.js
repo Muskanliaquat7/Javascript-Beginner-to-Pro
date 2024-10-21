@@ -107,3 +107,51 @@ for (let  element of marks) {
     
 }
  */
+
+// Practice question
+
+/* // Qs. for a given array with marks of students find the average marks of the entire class
+
+// 1. declare an array of marks 
+
+let marks = [85, 97, 44, 37, 76, 60];
+
+// 2. now to find sum we can declare a variable of sum and initialize it with 0
+
+let sum = 0;
+
+//3. now to find the sum we can use for-of loop
+
+for(let val of marks){
+    sum = sum + val;
+}
+
+//4. now to find the average marks we could write the formula of finding average marks which is sum/markslength = avg
+
+let avg = sum/ marks.length;
+
+//5. now we can just print it 
+console.log(`the average marks of student is ${avg}`); 
+ */
+
+
+/* 
+// Qs2. for a given  Array with prices of items all items have an offer of 10% off on them. change the array to store final price after applying offer
+
+//we can do this question by implementing loops now loop can be any for-of, for. we can do this qs by for loop 
+
+//1. declare an array of price 
+
+let price = [85, 97, 44, 37, 76, 60];
+
+for(let i = 0; i<price.length; i++){
+
+let offer = price[i] / 10 ; //putting the minus 10% formula 
+
+price[i] -= offer; //or price[i] = price[i] + offer;  
+
+}
+
+console.log(price);
+ */
+

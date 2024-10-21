@@ -44,7 +44,7 @@
 // let h = "hello";
 // let i = "7";
 
-// console.log(a+b) //hello6
+// console.log(h+i) //hello6
 
 // //When you add any thing to string it will concatenate!
 
