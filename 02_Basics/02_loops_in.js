@@ -126,12 +126,15 @@ for (let index = 0; index < fruits.length; index++) {
 } */
 
     // Task 5: Sum of Numbers from 1 to 100
-
-/*     let sum = 0;
+/* 
+    let sum = 0;
 
     for (let index = 0; index < 100; index++) {
        sum = sum + index;
          
     }
     console.log(`The sum is: ${sum}`);
-     */
+    
+ */
+
+  
