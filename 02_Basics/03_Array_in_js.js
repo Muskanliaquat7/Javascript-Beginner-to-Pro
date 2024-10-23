@@ -170,12 +170,12 @@ console.log(remove); //['Microsoft', 'Uber', 'Google', 'IBM', 'Netflix']
 
 // ii) Remove Ubar and add Ola in its place
 
-let comp = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+/* let comp = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
 comp.splice(2,1,"Ola")
 
 console.log(comp);
-
+ */
 
 
 // iii) add amazon at the end
@@ -186,3 +186,154 @@ comp.push("amazon"); //push method adds element to the last in array
 console.log(comp);
  */
 
+
+// Methods In Array 
+
+/* // 1. push
+// used to add value at the end of an Array 
+
+let item = ["cup", "cat", "laptop", "mic"];
+
+//if we want to add value we can use .push method
+
+// to add an value first put array in a new variable to store new value 
+
+items = item.push("lamp");
+
+//noe print the array to see new value 
+
+console.log(item); // ['cup', 'cat', 'laptop', 'mic', 'lamp']
+
+//  ye orginal array mein change lata ha means agar push method sey kuch add kareygy to wo orignal array me add hoga 
+ */
+
+
+/* 
+// 2.pop
+// it is used to remove value at the end of an array 
+
+let item = ["cup", "cat", "laptop", "mic"];
+
+// to remove a value first put array in a new variable to store new value 
+items = item.pop();
+
+console.log(item); // ['cup', 'cat', 'laptop']
+
+ */
+
+/* 
+// 3. unshift()
+// it is used to add value to the start of an array 
+let item = ["cup", "cat", "laptop", "mic"];
+
+items = item.unshift("banana");
+
+console.log(item); // ['bnana', 'cup', 'cat', 'laptop', 'mic']
+ */
+
+
+
+/* 
+// 4.shift()
+// it is used to remove value to remove 
+
+let item = ["cup", "cat", "laptop", "mic"];
+
+items = item.unshift();
+
+console.log(item); // ['cup', 'cat', 'laptop', 'mic']
+ */
+
+
+
+/* 
+// 5. toString
+// it is used to convert an array to a String
+
+let item = ["cup", "cat", "laptop", "mic"];
+
+//before converting array to string the output is 
+console.log(item); // ['cup', 'cat', 'laptop', 'mic']
+
+//after converting array to string the output is 
+console.log(item.toString()); // cup,cat,laptop,mic
+
+// the diffrence of before and after to string method is in square brackets and quotes 
+
+// but this method dont change original array
+
+ */
+
+/* 
+// 6. concat()
+// it is used to concat/sum one or more arrays
+
+// first declare two array
+
+let item1 = ["can", "cup" , "lamp"];
+
+let item2 = ["laptop", "ice", "cloud"];
+
+//now to concatinate them together we have to write array one name then dot concat (.concat) then second array name then print it 
+//we can also store it in a variable then print it 
+
+ console.log(item1.concat(item2)); //['can', 'cup', 'lamp', 'laptop', 'ice', 'cloud']
+
+ //remember this cannot change the original array 
+
+  */
+
+/*  
+//  7. slice()
+// it is used to return a piece of an array 
+//by declaring index/position of array values
+
+//lets say we have a array and i want some piece of it 
+
+let comfort = ["rain", "clouds", "tea", "coffee"];
+
+//start slice by giving index no
+console.log(comfort.slice(2,4)); //['tea', 'coffee']
+ 
+//now the note point is that ke last index of value is non-exclusive means lasat index pe jo value hoti ha wo count nahi hoti.
+ */
+
+
+// 8.splice()
+//it change original array 
+//it is used to change, add, replace value in an array.
+
+//  arr.splice( start index,delete index,new value )
+
+
+/* 
+// Add value
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//first we add the starting position from where we have to delete and then kaha tak delete karna ha third me jo new value add karni ha 
+arr.splice( 3, 0, 111 );
+
+ console.log(arr); //[1, 2, 3, 111, 4, 5, 6, 7, 8, 9, 10]
+ */
+
+
+/*  
+// Remmove value 
+let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+arr2.splice(3, 1);
+
+console.log(arr2); // [1, 2, 3, 6, 7, 8, 9, 10]
+
+ */
+
+
+/* 
+// replace value 
+
+let arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+arr3.splice(2,1,44);
+
+console.log(arr3);
+ */
