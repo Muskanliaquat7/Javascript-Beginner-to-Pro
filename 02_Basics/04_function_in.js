@@ -125,3 +125,8 @@ function calculateBill(item, price, quantity) {
 // return ka matlab: Tumhe bill bana ke diya gaya, ab tum usko kahin bhi use kar sakti ho (SMS bhejna, print karna, ya kisi aur function mein dena).
 //
 // Agar return nahi hota, toh bill bas screen pe show hota hai, aur baad mein uska koi kaam nahi rehta.
+
+
+//practice question
+// Qs: create a function using the function keyword that takes a string as an argument and returns the numbers of vowels in a string    
+       
