@@ -1,7 +1,7 @@
 // Function
 // is a piece of code that performs a specific task
-//jab bhi hume wo work karwana hoga to hum call kar ke karwate hain 
-//functions hum aik bar create kar ke koi bhi kam bar bar karwa skty hain by just calling it 
+//jab bhi hume wo work karwana hoga to hum call kar ke karwate hain
+//functions hum aik bar create kar ke koi bhi kam bar bar karwa skty hain by just calling it
 
 // like this;
 
@@ -33,7 +33,7 @@ function myfunc(){
 myfunc(); //this is function
  */
 
-// #Defining inputs in parenthesis 
+// #Defining inputs in parenthesis
 // JavaScript mein functions ek recipe ki tarah hoti hain. Jaise ek recipe ko kuch ingredients ki zarurat hoti hai (jaise doodh, anday, aur cheeni) waise hi functions ko kuch inputs ki zarurat hoti hai, jinhein hum parameters kehte hain.
 
 // Example:
@@ -54,9 +54,8 @@ myfunc(); //this is function
 makeJuice("Mango");  // Output: Mango juice ban gaya! 🧃
  */
 
-
 //    Q: Parameters kyu likhtay hain?
-// Har dafa alag input dene ka option milta hai. 
+// Har dafa alag input dene ka option milta hai.
 // Reusability: Ek hi function ko bohot baar use kar sakti ho, bus input alag dogi aur output bhi alag hoga.
 
 // #Example2:
@@ -87,10 +86,10 @@ function calculateBill (item, price, quantity){
 }
  */
 //price * quantity ka matlab hai, hum har item ka total nikaal rahe hain.
-//return yaha par total bill wapas de raha ha take hum use function ke bahaer kahin bhi kisi ke liye bhi use karsky 
+//return yaha par total bill wapas de raha ha take hum use function ke bahaer kahin bhi kisi ke liye bhi use karsky
 
 // #call function
-// isko kisi bhi variable mein call karna ha just aur phir jab bhi out put lena ho means print karna ho kisi aur function me use karna ho to var sey kengy 
+// isko kisi bhi variable mein call karna ha just aur phir jab bhi out put lena ho means print karna ho kisi aur function me use karna ho to var sey kengy
 
 /* 
 let bill1 = calculateBill("shampoo", 899,2 );
@@ -101,8 +100,6 @@ let bill2 = calculateBill("pizza", 1245,2 );
 alert(calculateBill("Juice", 200, 5));  // Alert: Bill for Juice is: 1000 rupees.
 
   */
-
-
 
 //we can print it or alert it and reuse it out of the functions.
 
@@ -126,7 +123,48 @@ function calculateBill(item, price, quantity) {
 //
 // Agar return nahi hota, toh bill bas screen pe show hota hai, aur baad mein uska koi kaam nahi rehta.
 
+/* 
+// #Practice Question
+// Qs: create a function using the function keyword that takes a string as an argument and returns the numbers of vowels in a string
 
-//practice question
-// Qs: create a function using the function keyword that takes a string as an argument and returns the numbers of vowels in a string    
-       
+function countVowel(str) {
+  let count = 0;
+  for (const char of str) {
+    if (
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
+    ) {
+      count++;
+    }
+  }
+
+  console.log(count);
+}
+
+// now call it and print any string that you want to count 
+
+countVowel("helio world"); //4
+countVowel("this is javascript"); //5
+
+ */
+/* 
+// Q2. Create an arrow function to perform the same task 
+
+const countVowel = (str) => {
+    let count = 0;
+    for (const char of str) {
+     
+        if (char === "a" || char === "e" ||char === "i" ||char === "o" ||char === "u"  ) {
+            count++
+        }
+    }
+    console.log(count);
+    
+} 
+
+countVowel("welcome"); //3
+countVowel("this is javascript"); //5
+ */
