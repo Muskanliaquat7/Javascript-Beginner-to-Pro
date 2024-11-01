@@ -123,6 +123,86 @@ function calculateBill(item, price, quantity) {
 //
 // Agar return nahi hota, toh bill bas screen pe show hota hai, aur baad mein uska koi kaam nahi rehta.
 
+
+// # Arrow function in javascript 
+// + it is new Es6 feature of advance javascript 
+// + it made function consice and easy to read 
+
+// # 1. Basic syntax 
+/* 
+const funcName = (parameters) =>{
+  //do some work 
+}
+ */
+// + in arrow function we store function name in const 
+// + in arrow function we write arrow (=>) other than function
+
+// # 2. Arrow function without parameters ()
+/* 
+const funcName2 =() => {
+
+  console.log("hello");
+  
+}
+
+//calling it 
+funcName2(); //hello
+ */
+
+// # 3. Funcitons with parameters 
+// lets sum functions by using params
+
+/* const sum = (x, y) => {
+  return x + y;
+
+}
+ */
+// sum(5,9); //it gives no output bcs we call it but did'nt pront it by console.log or alert we just return it 
+
+// + so in order to  pront the sum  of any 2 numbers and print it in console.log we have to log it 
+
+// console.log(sum(40,50)); //90
+
+// # 4. Multiply using parameters
+
+/* const multiply  = (x, y) => {
+  return x * y;
+} */
+
+// multiply(5,5); //it also gives no output bcs we call it but did'nt pront it by console.log or alert we just return it 
+
+// + so in order to  pront the sum  of any 2 numbers and print it in console.log we have to log it there also 
+// console.log(multiply(40,50)); //2000
+
+
+// # 5. Single Line Arrow function
+// + if function have only single line return  work in function then it is allowed to skip return keyword and curly braces
+// + but the bet is that we have to skip both return and curly braces{} if we replace one and write another then it will print undefined
+
+/* const Add = (x,y) => x + y; 
+console.log(Add(5,10)); //15 */
+
+
+// # 6. If parameters does'nt exist in functions
+// + if we parameters is not there we can use empty parameters like this with short syntax
+
+/* const greet = () => { console.log("hello ");
+}  */
+
+//now call it 
+// greet(); //hello 
+
+// # 7. if one parameter exist then parenthesis is optional 
+// lets see the example of square
+
+/* const square = num => { return num * num} 
+
+// printing any number square 
+console.log(square(4)); //16
+
+  */
+
+
 /* 
 // #Practice Question
 // Qs: create a function using the function keyword that takes a string as an argument and returns the numbers of vowels in a string
