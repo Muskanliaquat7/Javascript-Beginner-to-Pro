@@ -248,3 +248,14 @@ const countVowel = (str) => {
 countVowel("welcome"); //3
 countVowel("this is javascript"); //5
  */
+
+
+// Qs. For a given array of numbers, print the square of each value using the for each loop 
+/* 
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+num.forEach( function(nums){
+  console.log(nums*nums);
+  
+});  
+ */
