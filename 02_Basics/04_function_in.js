@@ -315,11 +315,7 @@ fruits.forEach( fruit => {console.log(fruit.toUpperCase());}
 
 // +foreach doesn't return anything it just work on array 
 
-
-
-
-
-
+// #Practice question:
 
 // Qs. For a given array of numbers, print the square of each value using the for each loop 
 /* 
