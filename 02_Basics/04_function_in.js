@@ -250,6 +250,77 @@ countVowel("this is javascript"); //5
  */
 
 
+// # forEach loop:
+// it is a method used for an array 
+// use to apply any function to array like methods, print, and so on 
+
+// #Syntax
+
+// array.foreach(callbackfunction)
+
+// +callback is a function which we pass as a parameter to perform any specific work for an array 
+
+// #example  
+// if we want to print each element of an array by using foreach in normal function
+
+// +first declare an array 
+/* 
+let fruits = ["Apple", "Kiwi", "Mango", "Banana", "Grapes"];
+
+// then write foreach like this 
+
+fruits.forEach(function(fruit){
+  console.log(fruit);
+  
+})  */ 
+
+// forEach in Arrow function
+/* 
+let fruits = ["Apple", "Kiwi", "Mango", "Banana", "Grapes"];
+
+fruits.forEach( fruit => {
+  console.log(fruit);
+  
+}) 
+  */
+
+
+// #Index and Array use in foreach 
+// we can also use index and array in foreach 
+// there is a sequence in foreach of finding elements, index, complete array 
+
+// lets find index 
+
+/* let fruits = ["Apple", "Kiwi", "Mango", "Banana", "Grapes"];
+
+fruits.forEach(  (element, index, array) => {
+  console.log(` Element: ${element}, Index: ${index}, Array: ${array} `);
+  
+}) */
+
+ /*  Element: Apple, Index: 0, Array: Apple,Kiwi,Mango,Banana,Grapes 
+04_function_in.js:297  Element: Kiwi, Index: 1, Array: Apple,Kiwi,Mango,Banana,Grapes 
+04_function_in.js:297  Element: Mango, Index: 2, Array: Apple,Kiwi,Mango,Banana,Grapes 
+04_function_in.js:297  Element: Banana, Index: 3, Array: Apple,Kiwi,Mango,Banana,Grapes 
+04_function_in.js:297  Element: Grapes, Index: 4, Array: Apple,Kiwi,Mango,Banana,Grapes  */
+
+
+// #Do some operations in for Each
+
+/* let fruits = ["Apple", "Kiwi", "Mango", "Banana", "Grapes"];
+
+fruits.forEach( fruit => {console.log(fruit.toUpperCase());}
+ )
+ */
+
+// +foreach doesn't return anything it just work on array 
+
+
+
+
+
+
+
 // Qs. For a given array of numbers, print the square of each value using the for each loop 
 /* 
 let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
