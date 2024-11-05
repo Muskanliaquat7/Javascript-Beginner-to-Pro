@@ -327,33 +327,5 @@ num.forEach( function(nums){
 });  
  */
 
-/* 
-function function1() {
-  //do some spcific task 
-  console.log("hello,world");
-  
-}
-
-function1();
-
- */
-
-
-/* function func1(){
-  //do specific task 
-  console.log("hello, world");
-  
-}
-
-func1();
- */
-
-
-function func1(name){
-  //do specific task 
-  console.log("hello," + name);
-  
-}
-
-func1("ali");
-func1("ayesha");
+// #Map Method:
+//map method is similar to foreach just the difference is map creates a new array and return.
