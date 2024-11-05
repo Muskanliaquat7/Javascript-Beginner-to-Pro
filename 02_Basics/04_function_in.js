@@ -328,4 +328,35 @@ num.forEach( function(nums){
  */
 
 // #Map Method:
-//map method is similar to foreach just the difference is map creates a new array and return.
+//map method is similar to foreach just the difference is map creates a new array and it has return but foreach doesn't have return and foreach doesn't create new array it just print.
+// +it does'nt change new array.
+// and whatever work we do in array it store it and return it in a new array.
+
+// Syntax:
+/* 
+const newArray = array.map(function (element, index, array){
+        // return updatedElements
+});
+ */
+
+// Here's the example:
+
+/* let grade = [67, 89 ,95, 78, 65];
+
+updatedGrades =  grade.map(function (grade){
+  return grade + 5;
+});
+
+console.log(updatedGrades);
+ */
+
+// By using arrow function:
+
+/* 
+let grade = [67, 89 ,95, 78, 65];
+
+updatedGrades =  grade.map(grade  =>  grade + 5 );
+
+console.log(updatedGrades);
+ */
+
