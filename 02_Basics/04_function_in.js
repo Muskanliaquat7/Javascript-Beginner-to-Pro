@@ -408,3 +408,55 @@ console.log(newArr);
 // it prints specific elements in an Array.
 // it doesn't change original array.
 
+// # Reduce Method:
+// reduce method in javscript is used for arrays, it converts multiple values in a single value.
+
+// Syntax:
+
+/* 
+array.reduce((accumulator, currentValue) => {
+
+  //logic to process elements 
+  return updatedAccumulator;
+
+}, initialValue);
+ */
+
+// Accumulator: it is a initial value which we give to it and by every iteration it updates the value 
+// Initial value: if accumulator initial value is not given then it can consider array first element as its initial value.
+// Current value: it modify/update accumulator.
+
+// Example with initial value:
+// lets see example of finding  sums with initial value.
+
+/* const nums = [2, 4, 6, 10];
+
+const total = nums.reduce((accumulator, currenValue) => {
+  return accumulator + currenValue;
+}, 15);
+
+console.log(total); //37
+ */
+
+// Example withOut initial value:
+// lets see example of finding  sums withOut initial value.
+
+/* 
+const nums2 = [2, 4, 6, 10];
+
+const total2 = nums2.reduce((accumulator, currenValue) => {
+  return accumulator + currenValue;
+});
+
+console.log(total2); //22
+ */
+
+// How reduce works: 
+
+// * When initial value is given:
+// Accumulator start the operation from initian value.
+
+// * When initial value is not given:
+// Accumulator start the operation from array first element.
+
+// summary: accumulator is the bowl where we put result and currenValue is the item which adds the value in every iteration in the bowl.
