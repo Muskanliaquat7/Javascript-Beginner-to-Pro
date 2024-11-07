@@ -374,3 +374,24 @@ Array.filter((element, index, array ) =>{
 
 // remember if array doesn't match with condition then it returns empty array []
 
+/* 
+let numbers = [1, 2, 3, 4, 5, 6, 88, 64];
+
+let evenNums = numbers.filter(num => num % 2 === 0);
+
+console.log(evenNums);
+ */
+
+// #Filter by Category:
+
+/* 
+let products = [
+  {name: "T-shirt" , category: "clothing" },
+  {name: "laptop" , category: "electronics" }
+];
+
+let electronics = products.filter(product => product.category === "electronics");
+
+console.log(electronics);
+ */
+
