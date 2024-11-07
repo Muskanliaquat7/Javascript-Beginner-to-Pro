@@ -360,3 +360,17 @@ updatedGrades =  grade.map(grade  =>  grade + 5 );
 console.log(updatedGrades);
  */
 
+
+// #Filter() Method:
+// it is used to filter array based on conditions and return new array which match the condition.
+
+// Syntax:
+
+/* 
+Array.filter((element, index, array ) =>{
+  // condition
+})
+ */
+
+// remember if array doesn't match with condition then it returns empty array []
+
