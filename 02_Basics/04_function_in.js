@@ -395,3 +395,16 @@ let electronics = products.filter(product => product.category === "electronics")
 console.log(electronics);
  */
 
+// #Remove null or undefined value:
+
+/* 
+let array = [1, 2, null, 45, undefined];
+
+let newArr = array.filter(array => array != null);
+
+console.log(newArr);
+ */
+
+// it prints specific elements in an Array.
+// it doesn't change original array.
+
