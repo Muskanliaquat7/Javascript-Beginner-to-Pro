@@ -475,3 +475,31 @@ newMark = marks.filter( mark => mark > 90 );
 console.log(newMark); //[93, 99]
  */
 
+// Qs. Take a number n as input from user. Create an array of numbers from 1 to n.
+
+
+userInput = prompt("enter the number");
+
+let array = [];
+
+for ( let i=1; i <= userInput; i++ ){
+      array[i - 1] = i;
+}
+
+console.log(array);
+
+// (i). Use the reduce methode to calculate the sum of all numbers in the array.
+
+/* let sum = array.reduce((prev, curr) => {
+          return prev + curr;
+})
+
+console.log(`sum = ${sum}`); //21 */
+
+// (ii). Use the reduce method to calculate the prduct of all the numbers in the array.
+
+/* let product = array.reduce((prev, curr) => {
+  return prev * curr;
+})
+
+console.log(`product = ${product}`); //120 */
