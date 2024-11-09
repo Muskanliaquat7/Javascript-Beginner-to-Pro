@@ -460,3 +460,18 @@ console.log(total2); //22
 // Accumulator start the operation from array first element.
 
 // summary: accumulator is the bowl where we put result and currenValue is the item which adds the value in every iteration in the bowl.
+
+// #Practice Questions:
+
+// Qs. We are given array of marks of students. Filter out the marks of student that scored 90+
+
+//first will make the marks array where we put marks 
+
+/* 
+marks = [45, 90, 55, 93, 99];
+
+newMark = marks.filter( mark => mark > 90 );
+
+console.log(newMark); //[93, 99]
+ */
+
