@@ -25,3 +25,15 @@ class car  {
 
 // constructor is a special type of function that sets properties in it.
 
+
+// #Creating objects using class
+
+/* let car1 = new car("mercedes", "white", 200); //New car object
+console.log(car1); */
+
+//creatinf 2nd object using car class.
+/* let car2 = new car("BMW", "Black", 120);
+console.log(car2); */
+
+
+// Methods in Class
