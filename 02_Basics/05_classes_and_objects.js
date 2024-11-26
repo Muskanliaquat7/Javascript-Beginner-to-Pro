@@ -69,7 +69,7 @@ car3.stop(); //haval has stopped. */
 
 // Basic Example:
 
-class Animal {
+/* class Animal {
     constructor(name, sound) {
 
         this.name = name; //sets property
@@ -83,8 +83,10 @@ class Animal {
         console.log(`${this.name} make a ${this.sound} sound.`);
         
     }
-}
+} */
 
+
+/* 
 // now creating child class
 class Dog extends Animal {
     //declaring method/function
@@ -99,7 +101,7 @@ const dog = new Dog("Buddy", "Bark");
 // now calling  it.
 dog.makeSound(); //Buddy make a Bark sound.
 dog.fetch();   //Buddy loves to fetch a ball
-
+ */
 
 // Super() In Js
 // Without super(), the child class cannot access the parent constructor, and it will throw an error.
