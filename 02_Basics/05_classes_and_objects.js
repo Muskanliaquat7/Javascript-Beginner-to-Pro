@@ -100,3 +100,7 @@ const dog = new Dog("Buddy", "Bark");
 dog.makeSound(); //Buddy make a Bark sound.
 dog.fetch();   //Buddy loves to fetch a ball
 
+
+// Super() In Js
+// Without super(), the child class cannot access the parent constructor, and it will throw an error.
+// Must Call super() First in Child Constructor:
