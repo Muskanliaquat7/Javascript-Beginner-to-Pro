@@ -104,3 +104,31 @@ dog.fetch();   //Buddy loves to fetch a ball
 // Super() In Js
 // Without super(), the child class cannot access the parent constructor, and it will throw an error.
 // Must Call super() First in Child Constructor:
+
+/* class Parent {
+    constructor(name) {
+      this.name = name;
+    }
+  
+    greet() {
+      console.log(`Hello, I am ${this.name}.`);
+    }
+  }
+  
+  class Child extends Parent {
+    constructor(name, age) {
+      super(name); // Call the Parent's constructor
+      this.age = age; // Add child-specific property
+    }
+  
+    introduce() {
+      console.log(`Hi, I am ${this.name} and I am ${this.age} years old.`);
+    }
+  }
+  
+  const child = new Child("Emily", 12);
+  child.greet();      // Hello, I am Emily.
+  child.introduce();  // Hi, I am Emily and I am 12 years old.
+   */
+
+  
