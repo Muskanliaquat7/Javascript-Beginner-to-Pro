@@ -39,7 +39,7 @@ console.log(car2); */
 // Methods in Class
 // If you want to do something with a car, like drive or stop, you use methods.
 
-class Car {
+/* class Car {
     constructor(brand, color, speed) {
       this.brand = brand;
       this.color = color;
@@ -56,10 +56,47 @@ class Car {
         
     }
 
-}
+} */
 
-let car3 = new Car ("haval", "Black", 80);
+/* let car3 = new Car ("haval", "Black", 80);
 
 car3.drive(); // haval is driving at 80 km/hr.
-car3.stop(); //haval has stopped.
+car3.stop(); //haval has stopped. */
+
+
+// #Inheritance in JavaScript
+// Inheritance allows one class (child) to use the properties and methods of another class (parent). It helps in reusability and makes the code clean and organized.
+
+// Basic Example:
+
+class Animal {
+    constructor(name, sound) {
+
+        this.name = name; //sets property
+        this.sound = sound; 
+
+    }
+
+    //using method 
+
+    makeSound() {
+        console.log(`${this.name} make a ${this.sound} sound.`);
+        
+    }
+}
+
+// now creating child class
+class Dog extends Animal {
+    //declaring method/function
+    fetch(){
+        console.log(`${this.name} loves to fetch a ball`);
+        
+    }
+}
+
+const dog = new Dog("Buddy", "Bark");
+
+// now calling  it.
+dog.makeSound(); //Buddy make a Bark sound.
+dog.fetch();   //Buddy loves to fetch a ball
 
