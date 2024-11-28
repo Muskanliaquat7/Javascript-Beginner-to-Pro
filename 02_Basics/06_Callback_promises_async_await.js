@@ -13,3 +13,8 @@ function khanaKhao() {
 // Call karte hain
 khanaBanao(khanaKhao);
 
+// output:
+// Khana bana raha hoon...
+// (2 second baad)
+// Khana tayar hai!
+// Khana khane laga hoon...
