@@ -142,6 +142,7 @@ fetchUser(function () {
   })
 })
 
+
 // Issues
 // it makes code complicated
 // makes difficult to handle errors
