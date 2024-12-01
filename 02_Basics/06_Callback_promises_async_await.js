@@ -98,3 +98,15 @@ function showMessage() {
 }
 
 timer ( 4000, showMessage); */
+
+// # Callback Hell:
+// when you write callbacks inside each function 
+
+// Example #!
+function fetchUser(callback){
+  setTimeout(() => {
+    console.log("User fetched");
+    callback();
+    
+  }, 1000);
+}
