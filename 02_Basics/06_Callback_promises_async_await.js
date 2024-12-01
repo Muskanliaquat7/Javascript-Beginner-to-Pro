@@ -110,3 +110,38 @@ function fetchUser(callback){
     
   }, 1000);
 }
+
+function processUserData(callback){
+  setTimeout(() => {
+    console.log("User data processed");
+    callback();
+  }, 1000);
+}
+
+function saveResult(callback){
+  setTimeout(() => {
+    console.log("Result saved");
+    callback();
+  }, 1000);
+}
+
+function showSuccessMessage() {
+  setTimeout(() => {
+    console.log("Success message shown");
+    
+  }, 1000);
+}
+
+// Callback Hell 
+
+fetchUser(function () {
+  processUserData( function(){
+    saveResult(function(){
+      showSuccessMessage();
+    })
+  })
+})
+
+// Issues
+// it makes code complicated
+// makes difficult to handle errors
