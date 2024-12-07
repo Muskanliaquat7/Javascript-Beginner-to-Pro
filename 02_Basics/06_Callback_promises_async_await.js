@@ -224,3 +224,20 @@ myPromise3.then((num) => {
   console.log("Triple:", num); //60
     
 })
+
+const marks = new Promise((resolve, reject) => {
+  const marks = 80;
+  if (marks > 40) {
+    resolve("Pass")
+  } else {
+    reject("fail")
+  }
+})
+
+marks.then((mark) => {
+  console.log("Result:", mark);
+  
+}).catch((mark) => {
+  console.log("Result:", mark);
+  
+})
