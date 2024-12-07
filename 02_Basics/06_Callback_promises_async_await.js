@@ -150,28 +150,23 @@ function showSuccessMessage() {
 // Promise In Js
 // it came to solve the problem of callback hell
 
-const myPromise = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Work Done");
-  }, 2000);
-});
-
+/* a */
 // Promises ke saath hum .then() aur .catch() ka use karte hain.
 
 // then(): Jab promise resolve ho jaye, iska kaam karega.
 // catch(): Agar promise reject ho jaye, iska kaam karega.
 
-myPromise
+/* myPromise
   .then((message) => {
     console.log("Success:", message); //Success: Work Done
   })
   .catch((error) => {
     console.log("Error:", error);
-  });
+  }); */
 
   // Step 5: Ek reject example samajhte hain
   // Agar kaam fail ho jaye, to hum reject use karte hain:
-
+/* 
   const myPromise2 = new Promise ((resolve, reject ) => {
     const success = true;
     if (success) {
@@ -189,12 +184,12 @@ myPromise
   }).catch((error) => {
     console.log("Error:", error);
     
-  })
+  }) */
 
   // Promises asynchronous kaam ko samajhne aur handle karne ke liye easy aur readable banate hain.
   // Agar promises na ho to humein callback hell ka samna karna padta hai.
 
-  // Example without promises (Callback Hell)
+ /*  // Example without promises (Callback Hell)
   setTimeout(() => {
     console.log("work1 done");
     setTimeout(() => {
@@ -205,11 +200,11 @@ myPromise
       }, 1000);
     }, 1000);
   },1000)
-
+ */
   // Step 7: Advanced Use (Chaining)
   // Promises ko chain karke ek kaam ke baad doosra kaam kar sakte hain.
 
-const myPromise3 = new Promise ((resolve, reject ) => {
+/* const myPromise3 = new Promise ((resolve, reject ) => {
   resolve(10); //first work
 });
 
@@ -223,9 +218,11 @@ myPromise3.then((num) => {
 }).then((num) => {
   console.log("Triple:", num); //60
     
-})
+}) */
 
-const marks = new Promise((resolve, reject) => {
+// Example #2
+
+/* const marks = new Promise((resolve, reject) => {
   const marks = 80;
   if (marks > 40) {
     resolve("Pass")
@@ -240,4 +237,4 @@ marks.then((mark) => {
 }).catch((mark) => {
   console.log("Result:", mark);
   
-})
+}) */
