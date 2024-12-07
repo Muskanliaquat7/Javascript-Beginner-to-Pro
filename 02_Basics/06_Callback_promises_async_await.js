@@ -190,3 +190,37 @@ myPromise
     console.log("Error:", error);
     
   })
+
+  // Promises asynchronous kaam ko samajhne aur handle karne ke liye easy aur readable banate hain.
+  // Agar promises na ho to humein callback hell ka samna karna padta hai.
+
+  // Example without promises (Callback Hell)
+  setTimeout(() => {
+    console.log("work1 done");
+    setTimeout(() => {
+      console.log("work2 done");
+      setTimeout(() => {
+        console.log("work3 done");
+        
+      }, 1000);
+    }, 1000);
+  },1000)
+
+  // Step 7: Advanced Use (Chaining)
+  // Promises ko chain karke ek kaam ke baad doosra kaam kar sakte hain.
+
+const myPromise3 = new Promise ((resolve, reject ) => {
+  resolve(10); //first work
+});
+
+myPromise3.then((num) => {
+  console.log("Number:", num); //10
+  return num * 2; //second work 
+}).then((num) => {
+  console.log("Double:", num); //20
+  return num * 3;
+  
+}).then((num) => {
+  console.log("Triple:", num); //60
+    
+})
