@@ -100,7 +100,7 @@ function showMessage() {
 timer ( 4000, showMessage); */
 
 // # Callback Hell:
-// when you write callbacks inside each function 
+// when you write callbacks inside each function
 
 // Example #!
 /* function fetchUser(callback){
@@ -132,7 +132,7 @@ function showSuccessMessage() {
   }, 1000);
 } */
 
-// Callback Hell 
+// Callback Hell
 
 /* fetchUser(function () {
   processUserData( function(){
@@ -147,4 +147,46 @@ function showSuccessMessage() {
 // it makes code complicated
 // makes difficult to handle errors
 
+// Promise In Js
+// it came to solve the problem of callback hell
 
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Work Done");
+  }, 2000);
+});
+
+// Promises ke saath hum .then() aur .catch() ka use karte hain.
+
+// then(): Jab promise resolve ho jaye, iska kaam karega.
+// catch(): Agar promise reject ho jaye, iska kaam karega.
+
+myPromise
+  .then((message) => {
+    console.log("Success:", message); //Success: Work Done
+  })
+  .catch((error) => {
+    console.log("Error:", error);
+  });
+
+  // Step 5: Ek reject example samajhte hain
+  // Agar kaam fail ho jaye, to hum reject use karte hain:
+
+  const myPromise2 = new Promise ((resolve, reject ) => {
+    const success = true;
+    if (success) {
+      console.log("successful");
+      
+    } else{
+      console.log("failed");
+      
+    }
+  })
+
+  myPromise2.then((message) => {
+    console.log("Success:", message);
+    
+  }).catch((error) => {
+    console.log("Error:", error);
+    
+  })
