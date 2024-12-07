@@ -134,15 +134,17 @@ function showSuccessMessage() {
 
 // Callback Hell 
 
-fetchUser(function () {
+/* fetchUser(function () {
   processUserData( function(){
     saveResult(function(){
       showSuccessMessage();
     })
   })
 })
-
+ */
 
 // Issues
 // it makes code complicated
 // makes difficult to handle errors
+
+
