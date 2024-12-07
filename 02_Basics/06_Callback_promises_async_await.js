@@ -103,7 +103,7 @@ timer ( 4000, showMessage); */
 // when you write callbacks inside each function 
 
 // Example #!
-function fetchUser(callback){
+/* function fetchUser(callback){
   setTimeout(() => {
     console.log("User fetched");
     callback();
@@ -130,7 +130,7 @@ function showSuccessMessage() {
     console.log("Success message shown");
     
   }, 1000);
-}
+} */
 
 // Callback Hell 
 
